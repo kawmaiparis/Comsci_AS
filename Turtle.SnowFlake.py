@@ -1,0 +1,20 @@
+import turtle
+turtle.bgcolor("grey")
+turtle.speed(0)
+turtle.right(30)
+turtle.color("lightblue")
+for i in range(6):
+    turtle.pensize(4)
+    turtle.right(60)
+    turtle.forward(150)
+    turtle.left(120)
+    for n in range(3):
+        turtle.color("white")
+        turtle.pensize(10)
+        turtle.right(60)
+        turtle.forward(100)
+        turtle.pensize(4)
+        turtle.color("lightblue")
+        turtle.backward(100)
+    turtle.left(60)
+    turtle.backward(150)
